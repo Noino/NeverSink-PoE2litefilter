@@ -29,8 +29,19 @@ SetFontSize 40
 ## Divine Orb Style
 Show
 Class "Currency"
-BaseType "Mirror" "Divine" "Perfect Jeweller's Orb"
+BaseType "Mirror"
 SetFontSize 45
+SetTextColor 255 0 0 255
+SetBorderColor 255 0 0 255
+SetBackgroundColor 255 255 255 255
+PlayAlertSound 6 300
+PlayEffect Red
+MinimapIcon 0 Red Star
+
+Show
+Class "Currency"
+BaseType "Divine" "Perfect Jeweller's Orb"
+SetFontSize 40
 SetTextColor 255 0 0 255
 SetBorderColor 255 0 0 255
 SetBackgroundColor 255 255 255 255
@@ -72,20 +83,20 @@ MinimapIcon 1 Cyan Triangle
 #--------------------------
 
 # Special A Tier - League specific socketables and jewels
-Show 
+Show
 BaseType "Soul Core" "Timeless"
 SetTextColor 0 240 190
 SetBorderColor 0 240 190
-SetFontSize 40
+SetFontSize 35
 MinimapIcon 2 Cyan Triangle
 PlayEffect Cyan
 
 # Special A Tier - Sanctum Relics
-Show 
+Show
 Class "Relic"
 SetTextColor 0 240 190
 SetBorderColor 0 240 190
-SetFontSize 40
+SetFontSize 35
 MinimapIcon 2 Cyan Triangle
 PlayEffect Cyan
 
@@ -95,7 +106,7 @@ Class "Jewel"
 Rarity Rare
 SetTextColor 0 240 190
 SetBorderColor 0 240 190
-SetFontSize 40
+SetFontSize 35
 MinimapIcon 2 Cyan Triangle
 PlayEffect Cyan
 
@@ -105,11 +116,11 @@ Class "Jewel"
 Rarity Magic
 SetTextColor 0 240 190
 SetBorderColor 0 240 190
-SetFontSize 40
+SetFontSize 35
 PlayEffect Cyan Temp
 
 # Special B Tier - Any Runes and Charms
-Show 
+Show
 BaseType " Rune" " Charm"
 SetTextColor 0 240 190
 PlayEffect Cyan Temp
@@ -128,7 +139,7 @@ SetBackgroundColor 240 90 35
 PlayAlertSound 1 300
 PlayEffect White
 MinimapIcon 1 White Circle
-SetFontSize 40
+SetFontSize 36
 
 # Currency Tier B: Vaal, Chaos, Exalt, Exotic
 Show
@@ -140,7 +151,7 @@ SetBackgroundColor 76 51 12
 PlayAlertSound 2 300
 PlayEffect White
 MinimapIcon 1 White Circle
-SetFontSize 40
+SetFontSize 36
 
 Show
 Class "Currency"
@@ -162,7 +173,7 @@ MinimapIcon 2 Grey Circle
 
 Show
 Class "Currency"
-BaseType "Simulacrum Splinter" "Breach Splinter" " Artifact" 
+BaseType "Simulacrum Splinter" "Breach Splinter" " Artifact"
 SetTextColor 255 207 132
 SetBorderColor 255 207 132
 MinimapIcon 2 Grey Circle
@@ -190,7 +201,7 @@ SetBackgroundColor 65 20 80
 PlayAlertSound 2 300
 PlayEffect White
 MinimapIcon 1 White Square
-SetFontSize 40
+SetFontSize 36
 
 Show
 BaseType "Waystone"
@@ -200,7 +211,7 @@ SetBorderColor 255 255 255
 PlayAlertSound 4 300
 PlayEffect White
 MinimapIcon 1 White Square
-SetFontSize 40
+SetFontSize 36
 
 #--------------------------
 # Value Rares
@@ -209,7 +220,7 @@ SetFontSize 40
 Show
 Class "Rings" "Amulets" "Belts"
 Rarity Rare
-SetFontSize 40
+SetFontSize 35
 SetTextColor 233 206 75
 SetBorderColor 233 206 75
 PlayEffect Yellow
@@ -222,12 +233,12 @@ MinimapIcon 1 Yellow Diamond
 Show
 Rarity Normal
 Class "Rings" "Amulets" "Belts"
-SetFontSize 40
+SetFontSize 30
 
 Show
 Class "Rings" "Amulets" "Belts"
 Rarity Magic
-SetFontSize 40
+SetFontSize 30
 
 #--------------------------
 # Salvagable Items
@@ -238,26 +249,26 @@ Show
 Sockets > 0
 Rarity Normal
 SetBorderColor 200 200 200
-SetFontSize 35
+SetFontSize 30
 
 Show
 Quality > 10
 Rarity Normal
 SetBorderColor 200 200 200
-SetFontSize 35
+SetFontSize 30
 
 # Not working!
 Show
 Sockets > 0
 Rarity Magic
 SetBorderColor 0 0 200
-SetFontSize 35
+SetFontSize 30
 
 Show
 Quality > 10
 Rarity Magic
 SetBorderColor 0 0 200
-SetFontSize 35
+SetFontSize 30
 
 #--------------------------
 # OPTIONAL RULES
