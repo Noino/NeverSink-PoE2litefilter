@@ -225,6 +225,42 @@ PlayEffect White
 MinimapIcon 1 White Square
 SetFontSize 36
 
+
+#--------------------------
+# SPECIAL BASES
+#--------------------------
+
+Show
+    BaseType == "Azure Amulet"
+    SetFontSize 45
+    PlayEffect Yellow
+    PlayAlertSound 2 300
+    MinimapIcon 1 White Diamond
+
+Hide
+    Rarity Normal
+    Class "Body Armours" "Helmets" "Boots" "Gloves" "Foci"
+    BaseArmour > 0
+    Continue
+
+Hide
+    Rarity Normal
+    Class "Body Armours" "Helmets" "Boots" "Gloves" "Foci"
+    BaseEvasion > 0
+    Continue
+
+Hide
+    Rarity Normal
+    Class "Shields"
+    BaseEnergyShield <= 0
+    BaseEvasion >= 0
+    Continue
+
+Hide
+    Rarity Normal
+    Class "Quivers" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Sceptres"
+    Continue
+
 #--------------------------
 # Value Rares
 #--------------------------
