@@ -7,12 +7,21 @@
 # Sadly imports dont work yet
 
 
+
+Hide
+Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Quivers" "Staves"
+Rarity <= Magic
+Continue
+
+Hide
+Class "Flasks"
+Rarity Normal
+Continue
+
+
 Show
 BaseType "Chiming Staff"
-
-
-
-
+Continue
 
 
 #===============================================================================================================
