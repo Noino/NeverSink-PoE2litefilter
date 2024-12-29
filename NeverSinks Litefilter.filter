@@ -9,18 +9,20 @@
 
 
 Hide
-Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Quivers" "Staves"
+Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Quivers" "Staves" "Flasks" "Sceptres" "Wands" "Belts"
 Rarity <= Magic
 Continue
 
-Hide
-Class "Flasks"
-Rarity Normal
+Show
+Class "Body Armours" "Helmets" "Boots" "Gloves"
+BaseType "Expert"
+BaseEnergyShield > 0
+BaseArmour <= 0
+BaseEvasion <= 0
 Continue
 
-
 Show
-BaseType "Chiming Staff"
+BaseType "Chiming Staff" "Attuned Wand" "Siphoning Wand"
 Continue
 
 
@@ -620,13 +622,3 @@ Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One 
 # DropLevel <= 50
 # SetBackgroundColor 0 0 0 125
 
-#--------------------------
-# Meta
-#--------------------------
-
-# If this thing crashes, time to update your filter!
-# This is here to prevent people to use this filter for AGES. Expert items will get removed eventually
-# Get a new filter from www.filterblade.xyz
-
-Show
-BaseType == "Expert Laced Boots"
