@@ -409,7 +409,7 @@ SetBackgroundColor 65 20 80
 PlayAlertSound 2 300
 PlayEffect Purple
 MinimapIcon 1 Purple Square
-SetFontSize 45
+SetFontSize 38
 
 Show
 Class "Tablet"
